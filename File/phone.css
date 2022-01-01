@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+background: rgb(82, 79, 71);
+    height: 100vh;
+    overflow: hidden;
+
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+ 
+}
+.box{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    width:520px ;
+    height: 900px;
+  position: relative;
+
+}
+.phone{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  width:300px;
+  height: 895px;
+    position: absolute;
+
+}
+.image{
+  position: absolute;
+  left:360px;
+     display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+
+
+   width: 401%;
+  height: 500px;
+  transition: 1s ease;
+
+}
+.image img{
+  margin-left: 25px;
+width: 200px;
+  height: 380px;
+}
+.btn{
+z-index: 1;
+margin-top: -160px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width:200px;
+  height: 40px;
+
+}
+button{
+  width: 80px;
+
+  color: crimson;
+  background: transparent;
+  background: rgb(38, 38, 189);
+ border: 1px solid black;
+  box-shadow: 3px 3px 30px black;
+  border-radius: 5px;
+  
+}
+button:hover{
+  color: rgb(250, 6, 6);
+  background: rgb(57, 57, 255);
+}
+.view{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100% ;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  transition: 1s ease-in-out;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  
+}
